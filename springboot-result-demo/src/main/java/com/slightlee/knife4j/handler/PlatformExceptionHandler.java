@@ -1,7 +1,7 @@
 package com.slightlee.knife4j.handler;
 
 
-import com.slightlee.knife4j.Exception.PlatformException;
+import com.slightlee.knife4j.exception.PlatformException;
 import com.slightlee.knife4j.util.Result;
 import com.slightlee.knife4j.util.ResultEnum;
 import lombok.extern.slf4j.Slf4j;

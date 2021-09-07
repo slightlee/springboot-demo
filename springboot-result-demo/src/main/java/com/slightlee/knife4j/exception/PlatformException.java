@@ -1,4 +1,4 @@
-package com.slightlee.knife4j.Exception;
+package com.slightlee.knife4j.exception;
 
 import com.slightlee.knife4j.util.ResultEnum;
 import lombok.Data;

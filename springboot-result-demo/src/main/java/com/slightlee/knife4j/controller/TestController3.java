@@ -2,7 +2,7 @@ package com.slightlee.knife4j.controller;
 
 import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
-import com.slightlee.knife4j.Exception.PlatformException;
+import com.slightlee.knife4j.exception.PlatformException;
 import com.slightlee.knife4j.annotation.ResponseResult;
 import com.slightlee.knife4j.util.Result;
 import com.slightlee.knife4j.util.ResultEnum;
