@@ -1,0 +1,11 @@
+server:
+  port: 8601
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'  #默认值访问health,info端点  用*可以包含全部端点
+  endpoint:
+    health:
+      show-details: always #获得健康检查中所有指标的详细信息
