@@ -1,0 +1,26 @@
+server:
+  port: 8661
+
+
+
+knife4j:
+  enable: true       # 开启增强功能
+  production: false  # 是否生产环境 如果为true停用Knife4j文档
+  basic:
+    enable: true     # 开启Swagger的Basic认证功能,默认是false
+    username: test   # Basic认证用户名
+    password: test   # Basic认证密码
+  setting:  # 自定义footer 版本 >=2.0.8
+    enableFooter: false    # 禁用默认 footer显示
+    enableFooterCustom: true  # 自定义footer
+    # 自定义显示内容
+    footerCustomContent: Apache License 2.0 | Copyright  2021-[XX科技有限公司](https://xxx.com/)
+  documents:
+    - group: 1.0.0 版本
+      name: 自定义文档分组 1
+      # 某一个文件夹下所有的.md文件
+      locations: classpath:markdown/*
+    - group: 1.0.0 版本
+      name: 自定义文档分组 2
+      # 某一个文件夹下单个.md文件
+      locations: classpath:markdown/sign.md

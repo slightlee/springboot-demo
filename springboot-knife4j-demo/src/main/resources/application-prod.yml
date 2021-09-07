@@ -1,0 +1,7 @@
+server:
+  port: 8662
+
+
+knife4j:
+  enable: true       # 开启增强功能
+  production: true   # 是否生产环境 如果为true停用Knife4j文档
