@@ -13,4 +13,5 @@
 | springboot-email-demo    | 发送邮件 demo                                          | ❌    |
 | springboot-sms-demo      | 发送短信 demo                                          | ❌    |
 | platform-demo            | 集成多个示例 搭建基础平台 demo                         | ⭕️    |
+| excel2pdf-demo           | excel转pdf demo                                        | ✅    |
 
