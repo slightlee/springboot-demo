@@ -1,0 +1,8 @@
+spring:
+    mail:
+        default-encoding: UTF-8
+        host: smtp.163.com              # 使用 smtp 协议, 本人 使用的是 163 邮箱，这里配置 163.com
+        password: xxxx                   # 这里是 邮箱授权码 注意不是登陆密码
+        username: 你的邮箱（发件人）
+
+
