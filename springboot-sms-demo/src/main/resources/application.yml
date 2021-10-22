@@ -1,0 +1,18 @@
+
+
+aliyun:
+  sms:
+    aliyunAccessKeyId: 你的keyId
+    aliyunAccessKeySecret: 你的密钥
+    SignName: 名称
+    smsCode: 模板编号
+
+
+knife4j:
+  enable: true       # 开启增强功能
+  production: false  # 是否生产环境 如果为true停用Knife4j文档
+  setting:  # 自定义footer 版本 >=2.0.8
+    enableFooter: false    # 禁用默认 footer显示
+    enableFooterCustom: true  # 自定义footer
+    # 自定义显示内容
+    footerCustomContent: Apache License 2.0 | Copyright  2021-[XX科技有限公司](https://xxx.com/)
