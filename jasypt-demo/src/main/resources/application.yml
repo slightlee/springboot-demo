@@ -1,0 +1,44 @@
+server:
+  port: 9661
+
+spring:
+  application:
+    name: jasypt-demo
+
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/platform-boot?serverTimezone=GMT%2B8
+    #采用md5
+#    username: ENC(CZi3Uf1rN/ha4GK0JrxhveevdW8qFE1U)
+#    password: ENC(wczwoSURCoz9ib1AD0vUufPuE6U+7RG1)
+    #采用sha512
+    username: ENC(vjUi0pOOxpDhcroeYgG/vvOjCIqea+8spEugFoW68+EKtIQnK7sIdCzn5stmsEZp)
+    password: ENC(JqcfY6ZE6ah42VuphgL803bh1c0uW84Me1VDXdqg/yITQykgu9idqAzsWwp0l+jn)
+    hikari:
+      connection-timeout: 60000
+      validation-timeout: 3000
+      idle-timeout: 60000
+      login-timeout: 5
+      max-lifetime: 60000
+      maximum-pool-size: 10
+      minimum-idle: 10
+      read-only: false
+
+# 配置文件加密key
+#jasypt:
+#  encryptor:
+#    password: ABCDEF
+#    #采用md5
+#  #  algorithm: PBEWithMD5AndDES
+#    #采用sha512
+#    algorithm: PBEWITHHMACSHA512ANDAES_256
+#    iv-generator-classname: org.jasypt.iv.RandomIvGenerator
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:**/mapper/xml/*.xml
+
+
