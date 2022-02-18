@@ -18,4 +18,5 @@
 | screw-demo                        | 数据库生成文档 demo  支持 HTML、WORD、MD 格式文档      | ✅    |
 | springboot-cannal-demo            | cannal简单demo                                         | ✅    |
 | jasypt-demo                       | 配置文件加密demo                                       | ✅    |
+| xjar-demo                         | jar包加密demo                                          | ✅    |
 
