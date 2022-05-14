@@ -1,0 +1,6 @@
+body{ font-family:'Times New Roman'; font-size:1em; }
+p {padding:0;margin-top:0pt;margin-right:0;margin-bottom:8pt;margin-left:0;}
+ul, ol{ margin-top: 0; margin-bottom: 0; }
+.Normal{page-break-inside:auto;page-break-after:auto;page-break-before:auto;margin-top:0.0pt;margin-bottom:8.0pt;margin-left:0.0pt;text-indent:0.0pt;border-top-style: none;border-left-style: none;border-right-style: none;border-bottom-style: none;font-size:11.0pt;font-family:Calibri;mso-fareast-font-family:等线;mso-bidi-font-family:Arial;lang:EN-US;mso-fareast-language:ZH-CN;mso-ansi-language:AR-SA;}
+.Default-Paragraph-Font{font-size:11.0pt;font-family:Calibri;mso-fareast-font-family:等线;mso-bidi-font-family:Arial;lang:EN-US;mso-fareast-language:ZH-CN;mso-ansi-language:AR-SA;}
+.Normal-Table{}
