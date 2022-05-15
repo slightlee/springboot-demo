@@ -21,4 +21,5 @@
 | jasypt-demo                       | 配置文件加密demo                                       | ✅    |
 | xjar-demo                         | jar包加密demo                                          | ✅    |
 | spire-demo                        | Spire for Java demo                                    | ✅    |
+| jfreechart-demo                   | jfreechart Java 图表库demo                             | ✅    |
 
