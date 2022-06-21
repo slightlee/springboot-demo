@@ -22,4 +22,5 @@
 | xjar-demo                         | jar包加密demo                                          | ✅    |
 | spire-demo                        | Spire for Java demo                                    | ✅    |
 | jfreechart-demo                   | jfreechart Java 图表库demo                             | ✅    |
+| itext7-demo                       | itext7 PDF文档生成demo                                 | ✅    |
 
