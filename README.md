@@ -23,4 +23,5 @@
 | spire-demo                        | Spire for Java demo                                    | ✅    |
 | jfreechart-demo                   | jfreechart Java 图表库demo                             | ✅    |
 | itext7-demo                       | itext7 PDF文档生成demo                                 | ✅    |
+| springboot-poi-demo               | poi解析doc、docx 格式world文档                         | ✅    |
 
