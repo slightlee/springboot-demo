@@ -31,8 +31,7 @@ public class EchartData2Base64 {
 
 
         // PhantomJS 服务器地址
-//        String url = "http://localhost:9090";
-        String url = "http://43.143.185.193:19090";
+        String url = "http://localhost:9090";
         Map<String, String> map = new HashMap<>();
         jsonData = jsonData.replaceAll("\\s+", "").replaceAll("\"", "'");
         map.put("opt", jsonData);
