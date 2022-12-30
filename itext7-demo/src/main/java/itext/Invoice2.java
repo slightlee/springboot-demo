@@ -10,9 +10,9 @@ import com.itextpdf.layout.borders.SolidBorder;
 import com.itextpdf.layout.element.*;
 import com.itextpdf.layout.properties.TextAlignment;
 import com.itextpdf.layout.properties.VerticalAlignment;
-import sun.misc.BASE64Decoder;
 
 import java.io.IOException;
+import java.util.Base64;
 
 public class Invoice2 {
 
@@ -438,10 +438,12 @@ public class Invoice2 {
         {
             return null;
         }
-        BASE64Decoder decoder = new BASE64Decoder();
+//        BASE64Decoder decoder = new BASE64Decoder();
+        Base64.Decoder decoder = Base64.getDecoder();
         try {
             // Base64解码
-            byte[] bytes = decoder.decodeBuffer(imgStr);
+//            byte[] bytes = decoder.decodeBuffer(imgStr);
+            byte[] bytes = decoder.decode(imgStr);
             for (int i = 0; i < bytes.length; ++i) {
                 // 调整异常数据
                 if (bytes[i] < 0) {

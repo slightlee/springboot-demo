@@ -5,7 +5,8 @@
 >
 > itext7 
 >
-> 示例：https://kb.itextpdf.com/home/it7kb/examples
+> 示例文档：https://kb.itextpdf.com/home/it7kb/examples
+> 示例demo: https://github.com/itext/i7js-examples
 
 ### Demo示例：
 
