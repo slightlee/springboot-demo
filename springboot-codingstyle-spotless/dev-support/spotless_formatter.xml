@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profiles version="13">
+    <profile kind="CodeFormatterProfile" name="Demain_lee Code Style" version="13">
+        <!-- 设置Java源代码的版本 -->
+        <setting id="org.eclipse.jdt.core.compiler.source" value="1.8" />
+        <!-- 设置编译器兼容性版本 -->
+        <setting id="org.eclipse.jdt.core.compiler.compliance" value="1.8" />
+        <!-- 设置目标平台版本 -->
+        <setting id="org.eclipse.jdt.core.compiler.codegen.targetPlatform" value="1.8" />
+        <!-- 以下是代码格式化相关的设置 -->
+        <!-- 缩进空行 -->
+        <setting id="org.eclipse.jdt.core.formatter.indent_empty_lines" value="true" />
+        <!-- 制表符大小 -->
+        <setting id="org.eclipse.jdt.core.formatter.tabulation.size" value="4" />
+        <!-- 换行的位置 -->
+        <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="200" />
+        <!-- 注释行长度 -->
+        <setting id="org.eclipse.jdt.core.formatter.comment.line_length" value="200" />
+        <!-- 制表符类型，这里是空格 -->
+        <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space" />
+        <!-- 缩进大小 -->
+        <setting id="org.eclipse.jdt.core.formatter.indentation.size" value="1" />
+        <!-- 第一个类体声明之前的空行数 -->
+        <setting id="org.eclipse.jdt.core.formatter.blank_lines_before_first_class_body_declaration" value="1" />
+        <!-- 格式化Javadoc注释 -->
+        <setting id="org.eclipse.jdt.core.formatter.comment.format_javadoc_comments" value="true" />
+        <!-- 不合并包裹的行（即可以换行显示） -->
+        <setting id="org.eclipse.jdt.core.formatter.join_wrapped_lines" value="false" />
+        <!-- 在条件语句的冒号前插入空格 -->
+        <setting id="org.eclipse.jdt.core.formatter.insert_space_before_colon_in_conditional" value="insert" />
+        <!-- 在default语句的冒号前不插入空格 -->
+        <setting id="org.eclipse.jdt.core.formatter.insert_space_before_colon_in_default" value="do not insert" />
+        <!-- 枚举常量的对齐方式 -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_enum_constants" value="16" />
+        <!-- 在标签语句的冒号前不插入空格 -->
+        <setting id="org.eclipse.jdt.core.formatter.insert_space_before_colon_in_labeled_statement" value="do not insert" />
+        <!-- 在case语句的冒号前不插入空格 -->
+        <setting id="org.eclipse.jdt.core.formatter.insert_space_before_colon_in_case" value="do not insert" />
+        <!-- 条件表达式的对齐方式 -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_conditional_expression" value="80" />
+        <!-- 赋值语句的对齐方式 -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_assignment" value="16" />
+        <!-- 包语句之后的空行数 -->
+        <setting id="org.eclipse.jdt.core.formatter.blank_lines_after_package" value="1" />
+        <!-- 数组初始化器的连续缩进 -->
+        <setting id="org.eclipse.jdt.core.formatter.continuation_indentation_for_array_initializer" value="2" />
+        <!-- try语句中资源的对齐方式 -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_resources_in_try" value="160" />
+        <!-- 方法声明中throws子句的对齐方式 -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_throws_clause_in_method_declaration" value="10" />
+        <!-- 方法声明中参数的对齐方式 -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration" value="106" />
+        <!-- 构造函数声明中参数的对齐方式 -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_constructor_declaration" value="106" />
+        <!-- 构造函数声明中throws子句的对齐方式 -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_throws_clause_in_constructor_declaration" value="106" />
+        <!-- 显式构造函数调用中参数的对齐方式 -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_explicit_constructor_call.count_dependent" value="16|5|80" />
+        <!-- 注解中参数的对齐方式 -->
+        <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_annotation" value="16" />
+    </profile>
+</profiles>
